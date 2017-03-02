@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumPswView">
+        <attr name="borderWidth" format="dimension" /><!-- 边框的宽度-->
+        <attr name="borderColor" format="color" /><!--分割线的颜色 最好与父背景色一致-->
+        <attr name="borderMargin" format="dimension" /><!-- 边框的距离 -->
+        <attr name="borderRadius" format="dimension" /><!-- 边框圆角-->
+        <attr name="passwordLength" format="integer" /><!--密码长度 -->
+        <attr name="passwordWidth" format="dimension" /><!--密码圆点的半径 -->
+        <attr name="passwordColor" format="color" /><!-- 密码圆点的颜色-->
+        <attr name="solidColor" format="color" /><!--填充颜色 -->
+        <attr name="passwordRadius" format="dimension" /><!--密码的圆角 -->
+    </declare-styleable>
+
+    <color name="default_ev_border_color">#CCCCCC</color>
+
+    <dimen name="default_ev_border_width">5dp</dimen>
+    <dimen name="default_ev_border_radius">3dp</dimen>
+    <dimen name="default_ev_border_margin">10dp</dimen>
+
+    <color name="default_ev_solid_color">#FFFFFF</color>
+    <color name="default_ev_password_color">#CCCCCC</color>
+
+    <dimen name="default_ev_password_width">10dp</dimen>
+    <dimen name="default_ev_password_radius">3dp</dimen>
+
+    <integer name="default_ev_password_length">6</integer>
+
+    <dimen name="custom_ev_border_width">10dp</dimen>
+    <dimen name="custom_ev_border_radius">10dp</dimen>
+    <dimen name="custom_ev_password_width">10dp</dimen>
+</resources>
