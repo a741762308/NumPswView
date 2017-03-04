@@ -36,4 +36,4 @@ compile 'com.dongqing.numpsw:numpswview:1.0.0'
 |  passwordWidth    | 密码的半径       |
 |  solidColor    | 边框填充颜色       |
 ### 最后
-[我的博客](http://dongwing.website)
+[我的博客](http://dongqing.website)
