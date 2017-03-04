@@ -11,9 +11,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jsqix.dongqing.numpassview.MainActivity">
 
-    <com.dongqing.numpsw.NumPswView
+    <com.dongqing.numpsw.NumPswView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="number"
         android:maxLength="6"
-        android:layout_height="wrap_content" />
+        app:borderColor="#CCCCCC"
+        app:borderMargin="10dp"
+        app:borderRadius="3dp"
+        app:borderWidth="5dp"
+        app:passwordColor="#CCCCCC"
+        app:passwordLength="6"
+        app:passwordWidth="10dp"
+        app:solidColor="#FFFFFF" />
 </LinearLayout>
